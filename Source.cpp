@@ -525,12 +525,12 @@ int main()
 
 		if (win == 2)
 		{
-			cout << "Player 2 Wins!!!" << endl << "play again? (Y/N): ";
+			cout << "Player 2 Wins!" << endl << "play again? (Y/N): ";
 		}
 		else if (win == 1)
 		{
 
-			cout << "Player 1 Wins!!!" << endl << "play again? (Y/N): ";
+			cout << "Player 1 Wins!" << endl << "play again? (Y/N): ";
 		}
 		cin >> again;
 		while (again != 'Y'&&again != 'y'&&again != 'N'&&again != 'n')
@@ -556,7 +556,6 @@ int main()
 		
 	}
 
-	cout << "Thanks for Playing!\n\n";
-	//keep_window_open();
+	cout << "Thanks for Playing!" << endl;;
 	return 0;
 }
